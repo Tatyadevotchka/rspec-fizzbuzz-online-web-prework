@@ -1,3 +1,4 @@
+require 'pry'
 def fizzbuzz(int)
   if int % 3 == 0 and int % 5 == 0
     return "FizzBuzz"
@@ -5,5 +6,5 @@ def fizzbuzz(int)
     return "Buzz"
   elsif int % 3 == 0
     return  "Fizz"
-  
+  binding.pry
 end
